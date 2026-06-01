@@ -9,6 +9,8 @@ def inlt():
 def insr():
     s = input()
     return(list(s[:len(s) - 1]))
+def inpstr():
+    return(input().strip())
 def invr():
     return(map(int,input().split()))
 
